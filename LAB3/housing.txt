@@ -1,0 +1,58 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     housing
+Instances:    400
+Attributes:   15
+              TID
+              CRIM
+              ZN
+              INDUS
+              CHAS
+              NOX
+              RM
+              AGE
+              DIS
+              RAD
+              TAX
+              PTRATIO
+              B
+              LSTAT
+              MEDV
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+MEDV =
+
+      0.0939 * ZN +
+     -0.1462 * INDUS +
+      3.3277 * CHAS +
+      0.915  * NOX +
+      0.0286 * AGE +
+     -1.7086 * DIS +
+      0.0739 * RAD +
+     -0.0109 * TAX +
+     -0.0662 * PTRATIO +
+      0.0143 * B +
+     -1.0011 * LSTAT +
+     39.232 
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correlation coefficient                  0.5032
+Mean absolute error                      7.0083
+Root mean squared error                 10.7575
+Relative absolute error                109.6897 %
+Root relative squared error            146.0077 %
+Total Number of Instances              105     
+
