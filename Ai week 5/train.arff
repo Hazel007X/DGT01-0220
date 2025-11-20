@@ -1,0 +1,25 @@
+@relation train
+
+@attribute ID numeric
+@attribute Name {John,Somsak,David,Dang,Mana,Dum,Sompong,Sunee,Gaga,Lumyai,Momoko,Rika,Manee,Risa,Jessica}
+@attribute SEX {M,F}
+@attribute Age numeric
+@attribute Score numeric
+@attribute Class {B,C,A,D}
+
+@data
+1,John,M,17,71,B
+2,Somsak,M,18,75,B
+3,David,M,13,69,C
+4,Dang,M,25,82,A
+5,Mana,M,10,50,D
+6,Dum,M,9,60,D
+7,Sompong,M,18,78,B
+8,Sunee,F,26,85,A
+9,Gaga,F,14,70,C
+10,Lumyai,F,11,52,D
+11,Momoko,F,24,87,A
+12,Rika,F,19,77,B
+13,Manee,F,27,83,A
+14,Risa,F,14,62,C
+15,Jessica,F,8,55,D

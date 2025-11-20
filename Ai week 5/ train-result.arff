@@ -1,0 +1,27 @@
+@relation train_clustered
+
+@attribute Instance_number numeric
+@attribute ID numeric
+@attribute Name {John,Somsak,David,Dang,Mana,Dum,Sompong,Sunee,Gaga,Lumyai,Momoko,Rika,Manee,Risa,Jessica}
+@attribute SEX {M,F}
+@attribute Age numeric
+@attribute Score numeric
+@attribute Class {B,C,A,D}
+@attribute Cluster {cluster0,cluster1,cluster2,cluster3}
+
+@data
+0,1,John,M,17,71,B,cluster3
+1,2,Somsak,M,18,75,B,cluster3
+2,3,David,M,13,69,C,cluster1
+3,4,Dang,M,25,82,A,cluster0
+4,5,Mana,M,10,50,D,cluster3
+5,6,Dum,M,9,60,D,cluster3
+6,7,Sompong,M,18,78,B,cluster3
+7,8,Sunee,F,26,85,A,cluster2
+8,9,Gaga,F,14,70,C,cluster1
+9,10,Lumyai,F,11,52,D,cluster1
+10,11,Momoko,F,24,87,A,cluster2
+11,12,Rika,F,19,77,B,cluster2
+12,13,Manee,F,27,83,A,cluster2
+13,14,Risa,F,14,62,C,cluster1
+14,15,Jessica,F,8,55,D,cluster1
